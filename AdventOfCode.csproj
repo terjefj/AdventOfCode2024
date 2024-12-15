@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<OutputType>Exe</OutputType>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<PropertyGroup>
+		<StartupObject>AdventOfCode.Program</StartupObject>
+		<AssemblyTitle>AdventOfCode2024</AssemblyTitle>
+		<Company>Norconsult</Company>
+		<Product>AdventOfCode2024</Product>
+		<Copyright>Copyright © Norconsult 2024</Copyright>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<UseWindowsForms>False</UseWindowsForms>
+		<UseWPF>True</UseWPF>
+		<ImplicitUsings>disable</ImplicitUsings>
+	</PropertyGroup>
+	<ItemGroup>
+		<Folder Include="IO\" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Input\Day2.txt" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+	</ItemGroup>
+</Project>
